@@ -6,13 +6,6 @@
       <label for="brand">New Product</label>
       <input class="form-control" name="name">
     </div>
-    <label for="icon">Icon</label>
-    <div class="input-group">
-        <div class="custom-file">
-          <input type="file" class="custom-file-input" id="icon" name="icon">
-          <label class="custom-file-label" for="icon">Choose file</label>
-        </div>
-    </div>
     <div class="form-check mt-1 ml-1">
       <input type="checkbox" class="form-check-input" id="only_menu" name="only_menu">
       <label class="form-check-label" for="only_menu">Only Menu</label>
