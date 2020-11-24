@@ -118,7 +118,7 @@
     });
     event.preventDefault();
     document.querySelector("form").reset();
-    //window.location.href = '{{ route('admin.dashboard') }}';
+    window.location.href = '{{ route('admin.dashboard') }}';
   });
   document.querySelector('.pro_list').addEventListener('click', function(e){
     if(e.target.classList.contains('editpro')){
