@@ -1,0 +1,1 @@
+<h3>Dear, {{$name}} Order Has Been Placed Successfully</h3>

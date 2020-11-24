@@ -1,0 +1,1 @@
+<a id="pdf" href="{{asset('public'.$order->invoice_path)}}" download>Click To Download the File</a>

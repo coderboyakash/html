@@ -1,0 +1,78 @@
+.StripeElement {
+  box-sizing: border-box;
+  
+  height: 40px;
+  
+  padding: 10px 12px;
+  
+  border: 1px solid transparent;
+  border-radius: 4px;
+  background-color: white;
+  
+  box-shadow: 0 1px 3px 0 #e6ebf1;
+  -webkit-transition: box-shadow 150ms ease;
+  transition: box-shadow 150ms ease;
+}
+
+.StripeElement--focus {
+  box-shadow: 0 1px 3px 0 #cfd7df;
+}
+
+.StripeElement--invalid {
+  border-color: #fa755a;
+}
+
+.StripeElement--webkit-autofill {
+  background-color: #fefde5 !important;
+}
+
+
+
+.whowe-area{
+  width: 100%;
+  float: left;
+  position: relative;
+  overflow: hidden;
+  padding-top: 80px;
+}
+.whowe-inr{
+  width: 100%;
+  float: left;
+}
+.whowe-inr .whowe-des{
+  width: 100%;
+  float: left;
+  padding: 48px 25px;
+  background: linear-gradient(to right, rgb(189 12 22), rgb(0 0 0));
+}
+.whowe-inr .whowe-des p {
+    font-size: 19px;
+    font-weight: 300;
+    color: #fff;
+    text-align: justify;
+    margin: 15px 0;
+    line-height: 30px;
+    width: 100%;
+    float: left;
+}
+.whowe-inr .whowe-des h1{
+  font-size: 30px;
+  font-weight: 700;
+  color: #fff;
+  margin: 0;
+}
+.whowe-inr .whowe-des a{
+  width: 100%;
+  float: left;
+}
+.whowe-inr .whowe-des a button{
+  border: 2px solid #ffffff;
+  color: #ffffff;
+  font-size: 18px;
+  padding: 10px;
+  margin-top: 20px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+.whowe-inr .whowe-video{width:100%;float:left;overflow: hidden;height: 366px; position:relative;}
+
